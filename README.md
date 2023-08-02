@@ -1,7 +1,7 @@
 # Image Generation App using GAN on Streamlit
 
 This Streamlit app allows you to generate new celebrity faces using a pre-trained Generative Adversarial Network (GAN) model trained on the CelebA dataset. To run the app, follow the steps below:
-![Generated Celebrity Faces](sample_generated_image.png)
+![Generated Celebrity Faces](3ce2a8e49d2c58461af43c3dfd8d46087ae59d1016b5b2ae87bd3220.jpg)
 
 ## Requirements
 
