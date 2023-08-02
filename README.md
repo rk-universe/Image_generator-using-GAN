@@ -52,6 +52,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us at example@example.com.
+If you have any questions or suggestions, feel free to contact us at kumawatrahul960@gmail.com.
 
 Enjoy generating celebrity faces with GAN on Streamlit!
