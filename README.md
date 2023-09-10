@@ -1,7 +1,24 @@
 # Image Generation App using GAN on Streamlit
 
 This Streamlit app allows you to generate new celebrity faces using a pre-trained Generative Adversarial Network (GAN) model trained on the CelebA dataset. To run the app, follow the steps below:
-![Generated Celebrity Faces](3ce2a8e49d2c58461af43c3dfd8d46087ae59d1016b5b2ae87bd3220.jpg)
+
+Images are blurred as it is trained only on 10 epochs
+
+[](https://github.com/rk-universe/Image_generator-using-GAN/assets/106592573/ef056497-a276-4c77-b345-5edd2a0aa85c)
+[](https://github.com/rk-universe/Image_generator-using-GAN/assets/106592573/cebd3072-ac02-48ee-9380-120da11fd692)
+[](https://github.com/rk-universe/Image_generator-using-GAN/assets/106592573/4e8e1f81-2808-4a46-adeb-b3ac6f4d5454)
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/rk-universe/Image_generator-using-GAN/assets/106592573/ef056497-a276-4c77-b345-5edd2a0aa85c" alt="Image 1" width="300"/></td>
+     <td align="center"><img src="https://github.com/rk-universe/Image_generator-using-GAN/assets/106592573/cebd3072-ac02-48ee-9380-120da11fd692" alt="Image 1" width="300"/></td>
+      <td align="center"><img src="https://github.com/rk-universe/Image_generator-using-GAN/assets/106592573/4e8e1f81-2808-4a46-adeb-b3ac6f4d5454" alt="Image 1" width="300"/></td>
+  
+  </tr>
+</table>
+
+
+
 
 ## Requirements
 
@@ -26,19 +43,9 @@ To run this app, you need to have the following Python libraries installed:
 streamlit run app.py
 ```
 
-5. Once the app is running, open your web browser and go to `http://localhost:8501`.
+5. Once the app is running, open your web browser and go to `http://localhost:{PORT}`.
 
 6. Use the slider to select the number of images you want to generate, and click the "Generate" button to see the generated celebrity faces.
-
-## Notes
-
-- The GAN model used by the app should be trained on the CelebA dataset or a similar dataset for generating realistic celebrity-like faces.
-
-- Ensure that the model file is saved in HDF5 format (`.h5`) for TensorFlow/Keras compatibility.
-
-- This app provides a simple interface to generate and visualize the generated images using the GAN model.
-
-- Remember to adapt the model loading code if your GAN model requires specific preprocessing or postprocessing steps.
 
 ## License
 
